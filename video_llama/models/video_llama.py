@@ -13,9 +13,9 @@ from transformers import LlamaTokenizer, BertConfig, WhisperModel, WhisperFeatur
 import einops
 import copy
 from video_llama.models.Qformer import BertConfig, BertLMHeadModel
-# from video_llama.models.ImageBind.models.imagebind_model import ImageBindModel,ModalityType
-# from video_llama.models.ImageBind.models import imagebind_model
-# from video_llama.models.ImageBind.data import load_and_transform_audio_data
+from video_llama.models.ImageBind.models.imagebind_model import ImageBindModel,ModalityType
+from video_llama.models.ImageBind.models import imagebind_model
+from video_llama.models.ImageBind.data import load_and_transform_audio_data
 import torch.nn.functional as F
 
 import os
